@@ -5750,6 +5750,11 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
+"@types/event-source-polyfill@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@types/event-source-polyfill/-/event-source-polyfill-1.0.0.tgz#f93f13433f750c8ea0e3cfa69c72e3c7393e0585"
+  integrity sha512-b8O8/rg7NIW0iJ8i9MNDBZqPljHA+b7AjC3QFqH3dSyW6vgrl3oBgyIv5dw2fibh5enHHDkkPZG5PHza7U4NRw==
+
 "@types/expect@^1.20.4":
   version "1.20.4"
   resolved "https://registry.npmjs.org/@types/expect/-/expect-1.20.4.tgz#8288e51737bf7e3ab5d7c77bfa695883745264e5"
@@ -15931,6 +15936,16 @@ jss@10.6.0, jss@^10.5.1:
     "@babel/runtime" "^7.3.1"
     csstype "^3.0.2"
     indefinite-observable "^2.0.1"
+    is-in-browser "^1.1.3"
+    tiny-warning "^1.0.2"
+
+jss@^10.8.2:
+  version "10.9.0"
+  resolved "https://registry.npmjs.org/jss/-/jss-10.9.0.tgz#7583ee2cdc904a83c872ba695d1baab4b59c141b"
+  integrity sha512-YpzpreB6kUunQBbrlArlsMpXYyndt9JATbt95tajx0t4MTJJcCJdd4hdNpHmOIDiUJrF/oX5wtVFrS3uofWfGw==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    csstype "^3.0.2"
     is-in-browser "^1.1.3"
     tiny-warning "^1.0.2"
 
