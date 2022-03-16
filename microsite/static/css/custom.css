@@ -1073,6 +1073,7 @@ code {
 .Banner {
   position: relative;
   padding: 14px;
+  padding-right: 50px; /* space for the dismiss button */
   margin: 14px 20px;
   border-radius: 4px;
   background-color: $primaryColor;
@@ -1097,6 +1098,9 @@ code {
   margin: 25px auto 0 auto;
   max-width: 1430px;
   height: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1024px) {
